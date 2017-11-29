@@ -27,9 +27,9 @@ namespace KeeganFinalProjectForms
         }
         private void btnNewReservation_Click(object sender, RoutedEventArgs e) //
         {
-            CreateQuote quoteWindow = new CreateQuote();
-            quoteWindow.Show();
-            this.Close();
+            this.Hide();
+            CreateQuote createquote = new CreateQuote();
+            createquote.Show();
         }
         public void btnNewReservation_Click(object sender, RoutedEventArgs e) //
         {
