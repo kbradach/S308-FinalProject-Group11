@@ -31,3 +31,12 @@ K:\Group13\KeeganFinalProjectForms\obj\Debug\KeeganFinalProjectForms.pdb
 K:\S308-FinalProject-Group13\KeeganFinalProjectForms\bin\Debug\KeeganFinalProjectForms.exe.config
 K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\KeeganFinalProjectForms.exe
 K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\KeeganFinalProjectForms.pdb
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\Team13.csprojResolveAssemblyReference.cache
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\CreateQuote.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\CreateReservation.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\MainScreen.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\ReservationReport.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\RoomManagement.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\App.g.cs
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\KeeganFinalProjectForms_MarkupCompile.cache
+K:\S308-FinalProject-Group13\KeeganFinalProjectForms\obj\Debug\KeeganFinalProjectForms_MarkupCompile.lref
