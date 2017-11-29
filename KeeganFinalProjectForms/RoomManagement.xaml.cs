@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using Newtonsoft.Json;
+using Microsoft.Win32;
 
 namespace KeeganFinalProjectForms
 {
@@ -33,7 +34,11 @@ namespace KeeganFinalProjectForms
 
         private void btnImportJson_Click(object sender, RoutedEventArgs e)
         {
-            string strFilePath = GetFilePath("json", false);
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "JSON Files | *.json";
+
+            if (openFileDialog.ShowDialog() == true)
+                string strFilePath = openFileDialog.FileName.ToString();
 
             try
             {
