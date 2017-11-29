@@ -31,12 +31,7 @@ namespace KeeganFinalProjectForms
             CreateQuote createquote = new CreateQuote();
             createquote.Show();
         }
-        public void btnNewReservation_Click(object sender, RoutedEventArgs e) //
-        {
-            CreateQuote quoteWindow = new CreateQuote();
-            quoteWindow.Show();
-            this.Close();
-        }
+       
         private void btnRoomManagement_Click(object sender, RoutedEventArgs e) //
         {
             RoomManagement mgmtWindow = new RoomManagement();
@@ -45,7 +40,7 @@ namespace KeeganFinalProjectForms
         }
         private void btnReservationReport_Click(object sender, RoutedEventArgs e) //
         {
-            ReservationReport reportWindow = new ReservationReport();
+            Window1 reportWindow = new Window1();
             reportWindow.Show();
             this.Close();
         }

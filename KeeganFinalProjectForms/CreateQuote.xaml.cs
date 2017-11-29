@@ -28,5 +28,29 @@ namespace KeeganFinalProjectForms
         {
 
         }
+
+        private void btnReservation_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            CreateReservation createreservation = new CreateReservation();
+            createreservation.Show();
+        }
+
+        private void btnStartOver_Click(object sender, RoutedEventArgs e)
+        {
+            //Just clear and Reset Everything?
+        }
+
+        private void btnMainMenu_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            MainScreen Mainmenu = new MainScreen();
+            Mainmenu.Show();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
